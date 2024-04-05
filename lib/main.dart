@@ -4,6 +4,7 @@ void main() {
   runApp(const MyApp());
 }
 
+// TODO: const uyarılarına dikkat
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -11,8 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      // TODO: isimlendirmelerde '' yerine "" kullan
-      title: "Developer branch added",
+      title: "Branchleri Öğreniyorum",
       theme: ThemeData(
         // This is the theme of your application.
         //
