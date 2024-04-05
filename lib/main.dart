@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      // TODO: isimlendirmelerde '' yerine "" kullan
       title: 'Developer branch added',
       theme: ThemeData(
         // This is the theme of your application.
